@@ -15,6 +15,14 @@ buttons.forEach(function(button, index) {
   });
 });
 
+// const lastBtn = document.querySelector('.book_list').lastElementChild;
+// // let targetRight = lastBtn.parentNode.lastElementChild.getBoundingClientRect().right;
+
+// lastBtn.addEventListener('click',function(){
+//   // var targetRight = lastBtn.parentNode.lastElementChild.offsetX;
+//   // lastBtn.parentNode.firstElementChild.moveBy(targetRight, 0);;
+//   lastBtn.parentNode.firstElementChild.style.marginRight = '70' + 'px';
+// });
 
 //svg 대응
 // 위에서 만든 img 태그를 변수로 담음
